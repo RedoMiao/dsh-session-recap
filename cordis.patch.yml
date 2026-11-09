@@ -1,0 +1,4 @@
+# 插入到 profile 的插件树里
+- insert:
+    - id: session-recap
+      name: 'dsh-session-recap'

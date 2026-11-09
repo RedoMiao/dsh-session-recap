@@ -1,0 +1,53 @@
+{
+  "name": "dsh-session-recap",
+  "version": "0.2.7",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "把 DSH 对话总结成 Obsidian 笔记：右下角猫按钮或 /summary，预览后写入",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "templates",
+    "assets/cat-idle.webp",
+    "assets/cat-click.webp",
+    "assets/cat-drag.webp",
+    "assets/cat-sleep.webp",
+    "assets/cat-idle.png",
+    "assets/cat-states.png",
+    "assets/cat-states-dark.png",
+    "assets/cat-preview-72.png",
+    "assets/cat.mp3",
+    "assets/cat-anchors.json",
+    "assets/CREDITS.md",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "obsidian",
+    "summary",
+    "deepseek-harness"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs && node test/flow.mjs && node test/save-route.mjs && node test/ui-save.mjs && node test/safe.mjs && node test/persist.mjs && node test/routes.mjs && node test/a2.mjs && node test/b25.mjs && node test/b26.mjs && node test/markdown.mjs && node test/anchor.mjs && node test/cat-state.mjs && node test/health.mjs"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cat-idle": {
+    "scale": 0.6383,
+    "dx": 16,
+    "dy": 67,
+    "unionW": 282
+  },
+  "cat-click": {
+    "scale": 0.4747,
+    "dx": 18,
+    "dy": 85,
+    "unionW": 348
+  },
+  "cat-drag": {
+    "scale": 0.487,
+    "dx": 16,
+    "dy": 68,
+    "unionW": 358
+  },
+  "cat-sleep": {
+    "scale": 0.4854,
+    "dx": 33,
+    "dy": 68,
+    "unionW": 327
+  }
+}
