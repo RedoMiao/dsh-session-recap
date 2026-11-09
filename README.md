@@ -242,8 +242,8 @@ dsh plugin --profile web remove dsh-session-recap
 
 ## 仓库
 
-- GitHub：https://github.com/Ruhe990/dsh-session-recap
-- Release：https://github.com/Ruhe990/dsh-session-recap/releases/tag/v0.2.7
-- 问题与建议：https://github.com/Ruhe990/dsh-session-recap/issues
+- GitHub：https://github.com/RedoMiao/dsh-session-recap
+- Release：https://github.com/RedoMiao/dsh-session-recap/releases/tag/v0.2.7
+- 问题与建议：https://github.com/RedoMiao/dsh-session-recap/issues
 
 这个项目目前只在 Windows 11 + DSH `0.1.2-rc.1` 上做过实机验证。其他系统、其他 DSH 版本欢迎反馈，但请先按上面的“未验证”理解。
